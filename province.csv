@@ -1,0 +1,1615 @@
+Id;Name;x
+1;Yukon;x
+2;Kitimat;x
+3;Sitka;x
+4;Nanaimo;x
+5;Olympia;x
+6;Columbia;x
+7;Nehalem;x
+8;Sacramento;x
+9;Monterey;x
+10;Sierra Madre;x
+11;San Bernardino;x
+12;Ensenada;x
+13;Baja;x
+14;Salton;x
+15;Altar;x
+16;Canyon;x
+17;Empalme;x
+18;Arizona;x
+19;Pinalero;x
+20;Chihuahua;x
+21;Mazatlan;x
+22;El Paso;x
+23;Coahuilha;x
+24;Jalisco;x
+25;Saltillo;x
+26;Michoagan;x
+27;Zacatecas;x
+28;Tampico;x
+29;Tlaxcala;x
+30;Atlixco;x
+31;Tehuantepec;x
+32;Tehuacan;x
+33;Guatemala;x
+34;Campeche;x
+35;Yucatan;x
+36;Honduras;x
+37;Nicaragua;x
+38;Mosquitos;x
+39;Isthmus;x
+40;Pecos;x
+41;Rio Grande;x
+42;Concho;x
+43;Matagorda;x
+44;Wichita;x
+45;Bayou;x
+46;Biloxi;x
+47;Mobile;x
+48;Tallahassee;x
+49;Seminole;x
+50;Everglades;x
+51;Arkansas;x
+52;Yazoo;x
+53;Tuscaloosa;x
+54;Savannah;x
+55;Alabama;x
+56;Tennessee;x
+57;Mississippi;x
+58;Missouri;x
+59;Illinois;x
+60;Miamis;x
+61;Alleghany;x
+62;Carolina;x
+63;Santee;x
+64;Roanoke;x
+65;Catawba;x
+66;Appalache;x
+67;Kentucky;x
+68;Chesapeake;x
+69;Powhatan;x
+70;Shenandoah;x
+71;Erie;x
+72;Hindua;x
+73;Fox;x
+74;Milwaukee;x
+75;Iowa;x
+76;Minnesota;x
+77;Mesabi;x
+78;Duluth;x
+79;Wisconsin;x
+80;Oskosh;x
+81;Michilimakinak;x
+82;Detroit;x
+83;Irondekoit;x
+84;Tuscarora;x
+85;Susquehanna;x
+86;Delaware;x
+87;Manhattan;x
+88;Catskill;x
+89;Oswego;x
+90;Mohawk;x
+91;Onondaga;x
+92;Niagara;x
+93;Sault;x
+94;Superior;x
+95;Nipigon;x
+96;Nipissing;x
+97;Oshawa;x
+98;Huron;x
+99;Ticonderoga;x
+100;Adirondak;x
+101;Sebago;x
+102;Connecticut;x
+103;Massachussetts;x
+104;Penobscot;x
+105;Megantic;x
+106;Hochelaga;x
+107;Ottawa;x
+108;Laurentia;x
+109;Shawinigan;x
+110;Stadacone;x
+111;Bas St-Laurent;x
+112;Bangor;x
+113;Micmac;x
+114;Gaspésie;x
+115;Acadie;x
+116;Nova Scotia;x
+117;Isle Royale;x
+118;Gander;x
+119;Placentia;x
+120;Wabana;x
+121;Saguenay;x
+122;Manicouagan;x
+123;Anticosti;x
+124;Belle Isle;x
+125;Caniapiscau;x
+126;Nain;x
+127;Torngat;x
+128;Ungava;x
+129;Minto;x
+130;Chisasibi;x
+131;Attawapiskat;x
+132;Winisk;x
+133;Athabaska;x
+134;Chimo;x
+135;Eskimalt;x
+136;Nueltin;x
+137;Havana;x
+138;Moron;x
+139;Guantanamo;x
+140;Jamaica;x
+141;Les Cayes;x
+142;Tortuga;x
+143;Barahona;x
+144;Puerto Rico;x
+145;St. Thomas;x
+146;St. Martin;x
+147;Antigua;x
+148;Dominica;x
+149;Guadeloupe;x
+150;Martinique;x
+151;Tobago & Trinidad;x
+152;Barbados;x
+153;Curacao;x
+154;Yaraguay;x
+155;Apure;x
+156;Tocuvo;x
+157;Maracaibo;x
+158;Cartagena;x
+159;Yarumal;x
+160;Bogota;x
+161;Cupica;x
+162;Cali;x
+163;Azuay;x
+164;Guayaquil;x
+165;Cajamarca;x
+166;Huanuco;x
+167;Ayacucho;x
+168;Lima;x
+169;Cuzco;x
+170;Arequipa;x
+171;Moquega;x
+172;Arica;x
+173;Atacama;x
+174;Coquimbo;x
+175;Valparaiso;x
+176;Talca;x
+177;Aisen;x
+178;Caribe;x
+179;Cuyuni;x
+180;Guyana;x
+181;Surinam;x
+182;Maroni;x
+183;Amapa;x
+184;Manaus;x
+185;Solimoes;x
+186;Aleutes;x
+187;Pastaza;x
+188;Mirim;x
+189;Macacos;x
+190;Japura;x
+191;Canuma;x
+192;Taqari;x
+193;Titicaca;x
+194;Potosi;x
+195;Mato Grosso;x
+196;Goias;x
+197;Caracas;x
+198;Marajo;x
+199;Para;x
+200;Tiracambu;x
+201;Maranhao;x
+202;Parnaiba;x
+203;Recife;x
+204;Iguato;x
+205;Pernambuc;x
+206;Alagoas;x
+207;Diamentina;x
+208;Minas Gerais;x
+209;Salvador;x
+210;Itaimas;x
+211;Niteroi;x
+212;Araxa;x
+213;Curitiba;x
+214;Cangucu;x
+215;Uruguay;x
+216;Artigas;x
+217;Parana;x
+218;Neembucu;x
+219;Tucuman;x
+220;Jujuy;x
+221;Corrientes;x
+222;Rosario;x
+223;Aires;x
+224;Copetonas;x
+225;San Matias;x
+226;Chubut;x
+227;Santa Cruz;x
+228;Magallanes;x
+229;Tierra del Fuego;x
+230;The Falklands;x
+231;Connaught;x
+232;Ulster;x
+233;Meath;x
+234;Leinster;x
+235;Munster;x
+236;The Highlands;x
+237;The Grampians;x
+238;Lothian;x
+239;Strathclyde;x
+240;Northumberland;x
+241;Yorkshire;x
+242;Lancashire;x
+243;Wales;x
+244;Midlands;x
+245;Lincoln;x
+246;Bristol;x
+247;Anglia;x
+248;Kent;x
+249;Wessex;x
+250;Cornwall;x
+251;Skåne;x
+252;Småland;x
+253;Västergötland;x
+254;Svealand;x
+255;Østlandet;x
+256;Bergenshus;x
+257;Bergslagen;x
+258;Trøndelag;x
+259;Narvik;x
+260;Lappland;x
+261;Finnmark;x
+262;Kola;x
+263;Österbotten;x
+264;Tavastland;x
+265;Nyland;x
+266;Kexholm;x
+267;Olonets;x
+268;Vologda;x
+269;Arkhangelsk;x
+270;Moskva;x
+271;Vladimir;x
+272;Nizhgorod;x
+273;Savolaks;x
+274;Novgorod;x
+275;Ingermanland;x
+276;Estland;x
+277;Pskov;x
+278;Tver;x
+279;Tula;x
+280;Welikia;x
+281;Polotsk;x
+282;Livland;x
+283;Kurland;x
+284;Belarus;x
+285;Smolensk;x
+286;Kursk;x
+287;Mozyr;x
+288;Lithuania;x
+289;Memel;x
+290;Prussia;x
+291;Masovia;x
+292;Podlasia;x
+293;Volyn;x
+294;Chernigov;x
+295;Ukraina;x
+296;Jedisan;x
+297;Podolia;x
+298;Galizien;x
+299;Krakow;x
+300;Wielkopolska;x
+301;Danzig;x
+302;Hinterpommern;x
+303;Poznan;x
+304;Vorpommern;x
+305;Mecklemburg;x
+306;Holstein;x
+307;Sjælland;x
+308;Gotland;x
+309;Jylland;x
+310;Hannover;x
+311;Magdeburg;x
+312;Brandenburg;x
+313;Küstrin;x
+314;Silesia;x
+315;Moravia;x
+316;Carpathia;x
+317;Ruthenia;x
+318;Moldova;x
+319;Bujak;x
+320;Dobrudja;x
+321;Rumelia;x
+322;Wallachia;x
+323;Transylvania;x
+324;Maros;x
+325;Magyar;x
+326;Presburg;x
+327;Ostmarch;x
+328;Bohemia;x
+329;Erz;x
+330;Sudeten;x
+331;Sachsen;x
+332;Anhalt;x
+333;Hessen;x
+334;Münster;x
+335;Oldenburg;x
+336;Bremen;x
+337;Friesen;x
+338;Geldre;x
+339;Holland;x
+340;Zeeland;x
+341;Västerbotten;x
+342;Finland;x
+343;Kleves;x
+344;Köln;x
+345;Pfalz;x
+346;Mainz;x
+347;Würzburg;x
+348;Ansbach;x
+349;Bayern;x
+350;Salzburg;x
+351;Austria;x
+352;Odenburg;x
+353;Pest;x
+354;Banat;x
+355;Serbia;x
+356;Bulgaria;x
+357;Thrace;x
+358;Macedonia;x
+359;Hellas;x
+360;Morea;x
+361;Albania;x
+362;Ragusa;x
+363;Kosovo;x
+364;Bosnia;x
+365;Dalmatia;x
+366;Croatia;x
+367;Krain;x
+368;Istria;x
+369;Steiermark;x
+370;Veneto;x
+371;Tirol;x
+372;Württemberg;x
+373;Baden;x
+374;Alsace;x
+375;Lorraine;x
+376;Champagne;x
+377;Luxembourg;x
+378;Brabant;x
+379;Artois;x
+380;Flandern;x
+381;Jämtland;x
+382;Calais;x
+383;Picardie;x
+384;Caux;x
+385;Ile de France;x
+386;Nivernais;x
+387;Franche-Comté;x
+388;Bern;x
+389;Lombardia;x
+390;Mantua;x
+391;Romagna;x
+392;Marche;x
+393;Napoli;x
+394;Apulia;x
+395;Messina;x
+396;Sicily;x
+397;Sardinia;x
+398;Corsica;x
+399;Roma;x
+400;Siena;x
+401;Firenze;x
+402;Emilia;x
+403;Liguria;x
+404;Piemonte;x
+405;Savoie;x
+406;Provence;x
+407;Dauphiné;x
+408;Lyonnais;x
+409;Bourgogne;x
+410;Berri;x
+411;Orléanais;x
+412;Maine;x
+413;Normandie;x
+414;Armor;x
+415;Bretagne;x
+416;Morbihan;x
+417;Vendée;x
+418;Poitou;x
+419;Limousin;x
+420;Auvergne;x
+421;Cévennes;x
+422;Languedoc;x
+423;Guyenne;x
+424;Gascogne;x
+425;Béarn;x
+426;Roussillon;x
+427;Gerona;x
+428;Navarra;x
+429;Catalonia;x
+430;Aragon;x
+431;Cantabria;x
+432;Asturias;x
+433;Galicia;x
+434;Oporto;x
+435;Leon;x
+436;Castilla;x
+437;Valencia;x
+438;Murcia;x
+439;Toledo;x
+440;Estramadura;x
+441;Tago;x
+442;Algarve;x
+443;Andalusia;x
+444;Granada;x
+445;Gibraltar;x
+446;Kazan;x
+447;Tambow;x
+448;Ryazan;x
+449;Vorones;x
+450;Belgorod;x
+451;Bogutjar;x
+452;Saratow;x
+453;Ufa;x
+454;Samara;x
+455;Uralsk;x
+456;Orenburg;x
+457;Astrakhan;x
+458;Volgograd;x
+459;Lugansk;x
+460;Donetsk;x
+461;Poltava;x
+462;Krementjug;x
+463;Crimea;x
+464;Kaffa;x
+465;Kerch;x
+466;Azov;x
+467;Kalmuk;x
+468;Kouban;x
+469;Sochi;x
+470;Georgia;x
+471;Daghestan;x
+472;Armenia;x
+473;Kurdistan;x
+474;Sivas;x
+475;Trabzon;x
+476;Angora;x
+477;Anatolia;x
+478;Smyrna;x
+479;Ionia;x
+480;Crete;x
+481;Rhodes;x
+482;Konya;x
+483;Adana;x
+484;Cyprus;x
+485;Aleppo;x
+486;Nuyssaybin;x
+487;Azerbaijan;x
+488;Kirkuk;x
+489;Iraq;x
+490;Syria;x
+491;Lebanon;x
+492;Samaria;x
+493;Judea;x
+494;Sinai;x
+495;Jordan;x
+496;Arabia;x
+497;Medina;x
+498;Mekkah;x
+499;Yemen;x
+500;Aden;x
+501;Hadramut;x
+502;Dofhar;x
+503;Masirah;x
+504;Mascate;x
+505;Al Kharam;x
+506;Quatar;x
+507;Damman;x
+508;Basrah;x
+509;Bahrein;x
+510;Kurgan;x
+511;Kustanai;x
+512;Tenghiz;x
+513;Orsk;x
+514;Irgiz;x
+515;Alga;x
+516;Aralsk;x
+517;Turgai;x
+518;Ust Urt;x
+519;Emba;x
+520;Bouzatchi;x
+521;Karabogaz;x
+522;Khwarizm;x
+523;Kara Kum;x
+524;Turkmenistan;x
+525;Elbruz;x
+526;Meched;x
+527;Kerman;x
+528;Lut;x
+529;Tabaristan;x
+530;Tabriz;x
+531;Hamadan;x
+532;Awhaz;x
+533;Isfahan;x
+534;Fars;x
+535;Hormouz;x
+536;Mekran;x
+537;Baluchistan;x
+538;Kalat;x
+539;Indus;x
+540;Sindh;x
+541;Kutch;x
+542;Rajputana;x
+543;Delhi;x
+544;Awadh;x
+545;Bundelkhand;x
+546;Malwa;x
+547;Gujarat;x
+548;Bombay;x
+549;Goa;x
+550;Maharashtra;x
+551;Khandesh;x
+552;Gondwana;x
+553;Raipur;x
+554;Tirhut;x
+555;Koch;x
+556;Santal;x
+557;Ganges;x
+558;Howrah;x
+559;Bihar;x
+560;Odisa;x
+561;Berhampur;x
+562;Sambalpur;x
+563;Bastar;x
+564;Palakimedi;x
+565;Yanam;x
+566;Hyderabad;x
+567;Bangalore;x
+568;Mangalore;x
+569;Kerala;x
+570;Mysore;x
+571;Madras;x
+572;Pondicherry;x
+573;Cochin;x
+574;Trivandrum;x
+575;Madurai;x
+576;Colombo;x
+577;Jaffna;x
+578;Ichim;x
+579;Karaganda;x
+580;Omsk;x
+581;Tchany;x
+582;Semipalatinsk;x
+583;Irtych;x
+584;Novosibirsk;x
+585;Altai;x
+586;Demianka;x
+587;Barabinsk;x
+588;Ob;x
+589;Tomsk;x
+590;Angara;x
+591;Krasnoyarsk;x
+592;Balakhta;x
+593;Tchuma;x
+594;Bratsk;x
+595;Oka;x
+596;Touva;x
+597;Saian;x
+598;Zima;x
+599;Tannu Ola;x
+600;Irkutsk;x
+601;Chatga;x
+602;Selenga;x
+603;Ulan Ude;x
+604;Buriat;x
+605;Tchita;x
+606;Kalakan;x
+607;Sretensk;x
+608;Kalar;x
+609;Mogotcha;x
+610;Djagdi;x
+611;Chilka;x
+612;Stanovoe;x
+613;Baladok;x
+614;Djugdjur;x
+615;Enkan;x
+616;Okhotsk;x
+617;Magadan;x
+618;Kolyma;x
+619;Chelekov;x
+620;Kamenkoie;x
+621;Korfa;x
+622;Palana;x
+623;Tchumkan;x
+624;Amgoun;x
+625;Bogorodsk;x
+626;Vanin;x
+627;Sofiisk;x
+628;Amour;x
+629;Tchekunda;x
+630;Boureia;x
+631;Ekimcan;x
+632;Nerchiinsk;x
+633;Norsk;x
+634;Birobidjan;x
+635;Heilongjiang;x
+636;Viazemski;x
+637;Sikhote;x
+638;Nelma;x
+639;Olga;x
+640;Nakhodka;x
+641;Kyongju;x
+642;Yalu;x
+643;Jilin;x
+644;Baicheng;x
+645;Jehol;x
+646;Liaotung;x
+647;Liaoning;x
+648;Hepei;x
+649;Hebei;x
+650;Shandong;x
+651;Jinan;x
+652;Jiangsu;x
+653;Shanghai;x
+654;Anhui;x
+655;Zhejiang;x
+656;Fujian;x
+657;Kowloon;x
+658;Guangzhou;x
+659;Guangdong;x
+660;Hainan;x
+661;Guangxi;x
+662;Hanoi;x
+663;Tanh Noah;x
+664;Da Nang;x
+665;Da Lat;x
+666;Mekong Delta;x
+667;Khmer;x
+668;Cambodia;x
+669;Laos;x
+670;Bangkok;x
+671;Chin;x
+672;Tarakan;x
+673;Irrawady;x
+674;Kwai;x
+675;Phuket;x
+676;Perak;x
+677;Malacca;x
+678;Johor;x
+679;Ajeh;x
+680;Riau;x
+681;Jambi;x
+682;Palembang;x
+683;Ezochi;x
+684;Tohoku;x
+685;Kanto;x
+686;Kansai;x
+687;Shikoku;x
+688;Kyushu;x
+689;Taiwan;x
+690;Luzon;x
+691;Mindoro;x
+692;Samar;x
+693;Mindanao;x
+694;Palawan;x
+695;Sabah;x
+696;Brunei;x
+697;Sarawak;x
+698;Bandjarmasin;x
+699;Selatan;x
+700;Kalimantan;x
+701;Sunda;x
+702;Jakarta;x
+703;Bandung;x
+704;Surabaja;x
+705;Bali;x
+706;Manado;x
+707;Sulawesi;x
+708;Makassar;x
+709;Salabanka;x
+710;Sumbawa;x
+711;Flores;x
+712;Timor;x
+713;Tindore;x
+714;Buru;x
+715;Ceram;x
+716;Sorong;x
+717;Kalepam;x
+718;Wewak;x
+719;Rabaul;x
+720;Manunda;x
+721;Murumbidgee;x
+722;Yarra;x
+723;Wagga;x
+724;Wollongong;x
+725;Nandewar;x
+726;Towoomba;x
+727;Whangarei;x
+728;Taranaki;x
+729;Wairoa;x
+730;Timaru;x
+731;Macquarie;x
+732;Tangiers;x
+733;Fez;x
+734;Orania;x
+735;Atlas;x
+736;Aures;x
+737;Al-Djazair;x
+738;Kabylia;x
+739;Tunisia;x
+740;Tripolitania;x
+741;Cyrenaica;x
+742;Quattara;x
+743;Cataract;x
+744;Alexandria;x
+745;Delta;x
+746;Egypt;x
+747;Nile;x
+748;Batn al Hajar;x
+749;Nubia;x
+750;Sudan;x
+751;Bisharin;x
+752;Massawa;x
+753;Keren;x
+754;Issas;x
+755;Afars;x
+756;Socotra;x
+757;Somalia;x
+758;Ogaden;x
+759;Mudugh;x
+760;Mogadiscio;x
+761;Malindi;x
+762;Kenya;x
+763;Mombasa;x
+764;Tanga;x
+765;Zanzibar;x
+766;Rufiji;x
+767;Lindi;x
+768;Mtawa;x
+769;Niassa;x
+770;Nampuia;x
+771;Zambezia;x
+772;Inhambane;x
+773;Natal;x
+774;Transkei;x
+775;Ciskei;x
+776;Karroo;x
+777;Bushman;x
+778;Table;x
+779;Namaqua;x
+780;Damara;x
+781;Ovambo;x
+782;Curango;x
+783;Lobito;x
+784;Luanda;x
+785;Zaire;x
+786;Cabinda;x
+787;Mayumba;x
+788;Muni;x
+789;Kribi;x
+790;Douala;x
+791;Nigeria;x
+792;Accra;x
+793;Ivoria;x
+794;Palanas;x
+795;Leone;x
+796;Guinea;x
+797;Casamance;x
+798;Gambia;x
+799;Dakar;x
+800;Senegal;x
+801;Louga;x
+802;Nouakchott;x
+803;Nouadibuh;x
+804;Tassaret;x
+805;Sahara;x
+806;Toubkal;x
+807;Ambovombe;x
+808;Antsirana;x
+809;Bourbon;x
+810;Mauritius;x
+811;Mahe;x
+812;Kauai;x
+813;Oahu;x
+814;Tahiti;x
+815;Viti Levu;x
+816;Fernando Po;x
+817;The Canary Islands;x
+818;Cape Verde;x
+819;Malta;x
+820;Corfu;x
+821;The Baleares;x
+822;Costa Rica;x
+823;The Azores;x
+824;St. Helena;x
+825;Bering Straits;x
+826;Aleutian Sea;x
+827;Aleutian Islands;x
+828;Gulf of Alaska;x
+829;Hudson Bay;x
+830;Hudson Straits;x
+831;Sea of Baffin;x
+832;Strait of Labrador;x
+833;Gulf of Saint Lawrence;x
+834;Sea of Labrador;x
+835;Coast of Greenland;x
+836;Coast of Iceland;x
+837;Icelandic Sea;x
+838;Jan Mayen Sea;x
+839;Spitzberg;x
+840;Throndheim Fjord;x
+841;The Lofotens;x
+842;North Cape;x
+843;White Sea;x
+844;Bay of Ajan;x
+845;Bay of Magadan;x
+846;Gulf of kolyma;x
+847;Bay of Kamenskoie;x
+848;Coast of Kamchatska;x
+849;Cape of Kamchatska;x
+850;Komandorski Islands;x
+851;Bay of Uka;x
+852;Bay of Oljut;x
+853;Bay of Anadyr;x
+854;Western Aleutian Sea;x
+855;Central Aleutian Sea;x
+856;South Aleutian Sea;x
+857;Northwestern Pacific Ocean;x
+858;Northern Pacific Ocean;x
+859;Northwestern Pacific Ocean;x
+860;Coast of Oregon;x
+861;Coast of Columbia;x
+862;Chesapeake Bay;x
+863;Massachussetts Bay;x
+864;Bay of Fundy;x
+865;Newfoundland Banks;x
+866;Greenland Sea;x
+867;Western Icelandic Sea;x
+868;South Icelandic Sea;x
+869;Faeroes;x
+870;Shetland Straits;x
+871;Shetlands;x
+872;Norwegian Sea;x
+873;Sea of Bergen;x
+874;Sea of Stavanger;x
+875;The Sund;x
+876;Baltic Sea;x
+877;Kalmar Strait;x
+878;Gulf of Riga;x
+879;Gulf of Finland;x
+880;Åland Sea;x
+881;Gulf of Turku;x
+882;Gulf of Bothnia;x
+883;Amur Delta;x
+884;Okhotsk Sea;x
+885;Coast of Sakhalin;x
+886;Tatar Straits;x
+887;Soya Strait;x
+888;The Kuriles;x
+889;Northern Pacific Ocean;x
+890;Northern Pacific Ocean;x
+891;Northern Pacific Ocean;x
+892;Northern Pacific Ocean;x
+893;Northern Pacific Ocean;x
+894;Northern Pacific Ocean;x
+895;Northern Pacific Ocean;x
+896;Northern Pacific Ocean;x
+897;Santa Catalina Islands;x
+898;Northern Pacific Ocean;x
+899;Coast of California;x
+900;Californian Gulf;x
+901;Mazatlan Bay;x
+902;Tampico Bay;x
+903;Yucatan Sea;x
+904;Gulf of Mexico;x
+905;Mississippi Bay;x
+906;Mobile Bay;x
+907;Cape Canaveral;x
+908;Coast of Carolina;x
+909;Cape Hatteras;x
+910;Bermuda Triangle;x
+911;Northern Atlantic Ocean;x
+912;The Bermudas;x
+913;Northern Atlantic Ocean;x
+914;Northern Atlantic Ocean;x
+915;Northern Atlantic Ocean;x
+916;Northern Atlantic Ocean;x
+917;Northern Atlantic Ocean;x
+918;Rockall;x
+919;Finisterre;x
+920;Cantabrian Sea;x
+921;Côte d'Argent;x
+922;Quiberon Bay;x
+923;Bay of Biscay;x
+924;Western Approaches;x
+925;Coast of Brittany;x
+926;Land's End;x
+927;Bantry Bay;x
+928;Donegal Bay;x
+929;Irish Sea;x
+930;Hebrides;x
+931;Moray Firth;x
+932;Firth of Forth;x
+933;The North Sea;x
+934;Tyne;x
+935;Dogger Bank;x
+936;The Channel;x
+937;Straits of Dover;x
+938;Coast of Holland;x
+939;German Bight;x
+940;Korea Bay;x
+941;Yellow Sea;x
+942;South Korean Sea;x
+943;North Korean Sea;x
+944;Tsushima Strait;x
+945;Sado Strait;x
+946;Sea of Japan;x
+947;Western Japan Sea;x
+948;Northern Japan Sea;x
+949;Tsugaru Strait;x
+950;Taihei Ocean;x
+951;Taihei Ocean;x
+952;Northern Pacific Ocean;x
+953;Northern Pacific Ocean;x
+954;Northern Pacific Ocean;x
+955;Northern Pacific Ocean;x
+956;Midway Island;x
+957;Hawaiian Sea;x
+958;Northeastern Pacific Ocean;x
+959;Northeastern Pacific Ocean;x
+960;Northeastern Pacific Ocean;x
+961;Northeastern Pacific Ocean;x
+962;Manzanillo Bay;x
+963;Acapulco Bay;x
+964;Belize Bay;x
+965;Florida Straits;x
+966;Jamaican Sea;x
+967;Great Bahamas Bank;x
+968;Sea of Sargassos;x
+969;Tortuga Island;x
+970;Central Atlantic Ocean;x
+971;Central Atlantic Ocean;x
+972;Central Atlantic Ocean;x
+973;Central Atlantic Ocean;x
+974;Central Atlantic Ocean;x
+975;Central Atlantic Ocean;x
+976;Sea of Azores;x
+977;Central Atlantic Ocean;x
+978;Central Atlantic Ocean;x
+979;Lusitanian Sea;x
+980;Gulf of Cadiz;x
+981;Central Atlantic Ocean;x
+982;Straits of Gibraltar;x
+983;Gulf of Almeria;x
+984;Gulf of Valencia;x
+985;Gulf of Mallorca;x
+986;Barbary Coast;x
+987;Gulf of Lion;x
+988;Côte d'Azur;x
+989;Western Mediterranean;x
+990;Cape Bon;x
+991;Gulf of Cagliari;x
+992;Ligurian Sea;x
+993;Tyrrenean Sea;x
+994;Bay of Naples;x
+995;Straits of Messina;x
+996;Malta Channel;x
+997;Gulf of Sirte;x
+998;Gulf of Taranto;x
+999;Gulf of Venice;x
+1000;Adriatic Sea;x
+1001;Straits of Otranto;x
+1002;Ionian Sea;x
+1003;Gulf of Tobruk;x
+1004;Bay of Alexandria;x
+1005;Coast of Palestine;x
+1006;Gulf of Cyprus;x
+1007;Eastern Mediterranean;x
+1008;Cretan Sea;x
+1009;The Dodecanese;x
+1010;The Cyclades;x
+1011;Aegean Sea;x
+1012;Sea of Marmara;x
+1013;Gulf of Varna;x
+1014;Gulf of Odessa;x
+1015;Western Black Sea;x
+1016;Eastern Black Sea;x
+1017;Sea of Azov;x
+1018;Yang Tse Delta;x
+1019;Amakusa Sea;x
+1020;Seto Inland Sea;x
+1021;Tokai Sea;x
+1022;Iwo Jima Sea;x
+1023;Northwestern Pacific Ocean;x
+1024;Northwestern Pacific Ocean;x
+1025;Northwestern Pacific Ocean;x
+1026;Northwestern Pacific Ocean;x
+1027;Northwestern Pacific Ocean;x
+1028;Northwestern Pacific Ocean;x
+1029;Central Pacific Ocean;x
+1030;Central Pacific Ocean;x
+1031;Saint George's Channel;x
+1032;Northeastern Pacific Ocean;x
+1033;Northeastern Pacific Ocean;x
+1034;Galapagos Islands;x
+1035;Northeastern Pacific Ocean;x
+1036;Northeastern Pacific Ocean;x
+1037;Northeastern Pacific Ocean;x
+1038;Bay of Costa Rica;x
+1039;Gulf of Panama;x
+1040;Gulf of Guayaquil;x
+1041;Coast of Ecuador;x
+1042;Mosquitos Coast;x
+1043;Gulf of Darien;x
+1044;Caribbean Sea;x
+1045;Venezuelan Sea;x
+1046;Straits of Puerto Rico;x
+1047;Leeward Islands;x
+1048;Windward Islands;x
+1049;Central Atlantic Ocean;x
+1050;Central Atlantic Ocean;x
+1051;Central Atlantic Ocean;x
+1052;Central Atlantic Ocean;x
+1053;Central Atlantic Ocean;x
+1054;Arguin Bank;x
+1055;Central Atlantic Ocean;x
+1056;Mauretanian Coast;x
+1057;Canarian Sea;x
+1058;Coast of Morocco;x
+1059;Gulf of Suez;x
+1060;Red Sea;x
+1061;Bab el Mandeb;x
+1062;Gulf of Aden;x
+1063;Straits of Ormuz;x
+1064;Oman Sea;x
+1065;Mascate Coast;x
+1066;Gulf of Indus;x
+1067;Western Arabian Sea;x
+1068;Eastern Arabian Sea;x
+1069;Coast of Gujarat;x
+1070;Lacquedive Islands;x
+1071;Coast of Malabar;x
+1072;Coast of Coromandel;x
+1073;Coast of Orissa;x
+1074;Ganges Delta;x
+1075;Gulf of Bengal;x
+1076;Northern Bay of Bengale;x
+1077;Andaman Sea;x
+1078;Akyab Bay;x
+1079;Irrawady delta;x
+1080;Mergui Archipelago;x
+1081;Gulf of Siam;x
+1082;Gulf of Tonkin;x
+1083;Coast of Annam;x
+1084;Paracel Islands;x
+1085;Taiwan Strait;x
+1086;Strait of Luzon;x
+1087;Sea of Taiwan;x
+1088;Eastern China Sea;x
+1089;Ryukyu Islands;x
+1090;Mariana Islands;x
+1091;Marcus Island;x
+1092;Wake Island;x
+1093;Howland Island;x
+1094;Central Pacific Ocean;x
+1095;Central Pacific Ocean;x
+1096;Central Pacific Ocean;x
+1097;Central Pacific Ocean;x
+1098;Central Pacific Ocean;x
+1099;Central Pacific Ocean;x
+1100;Central Pacific Ocean;x
+1101;Coast of Peru;x
+1102;Central Pacific Ocean;x
+1103;Juan Fernandez Islands;x
+1104;Arica Gulf;x
+1105;Arequipa Bay;x
+1106;Guyana Coast;x
+1107;Bay of Belem;x
+1108;Gulf of the Amazon;x
+1109;Central Atlantic Ocean;x
+1110;Coast of Brazil;x
+1111;South Central Atlantic Ocean;x
+1112;Coast of Recife;x
+1113;Coast of Pernambuc;x
+1114;Todos Santos Bay;x
+1115;Rio de Janeiro;x
+1116;Southern Atlantic Ocean;x
+1117;Southern Atlantic Ocean;x
+1118;South Central Atlantic Ocean;x
+1119;South Central Atlantic Ocean;x
+1120;South Central Atlantic Ocean;x
+1121;Cape Verde Islands;x
+1122;South Central Atlantic Ocean;x
+1123;South Central Atlantic Ocean;x
+1124;Southern Atlantic Ocean;x
+1125;Ascension Island;x
+1126;South Central Atlantic Ocean;x
+1127;Gorée Island;x
+1128;Coast of Gambia;x
+1129;Gold Coast;x
+1130;Gulf of Nigeria;x
+1131;Gulf of Guinea;x
+1132;Coast of Cameroon;x
+1133;Coast of Pepper;x
+1134;Horn of Africa;x
+1135;Socotra Island;x
+1136;Arabian Sea;x
+1137;The Maldives;x
+1138;Comorin Cape;x
+1139;Ceylon Sea;x
+1140;Coast of Trincomalee;x
+1141;Bay of Bengale;x
+1142;Central Indian Ocean;x
+1143;Straits of Malacca;x
+1144;Coast of Sumatra;x
+1145;Straits of Johore;x
+1146;Malayan Sea;x
+1147;South China Sea;x
+1148;Balabac Strait;x
+1149;South China Sea;x
+1150;Sulu Sea;x
+1151;Gulf of Leyte;x
+1152;Coast of Luzon;x
+1153;North Philippine Sea;x
+1154;Philippine Sea;x
+1155;Mindanao Coast;x
+1156;Palau Island;x
+1157;Caroline Islands;x
+1158;Admiralty Islands;x
+1159;Micronesian Sea;x
+1160;Marshall Islands;x
+1161;Gilbert Islands;x
+1162;Fiji Islands;x
+1163;Wallis and Futuna Islands;x
+1164;Samoa Islands;x
+1165;Society Islands;x
+1166;South Pacific Ocean;x
+1167;South Pacific Ocean;x
+1168;Coast of Chile;x
+1169;Coast of Patagonia;x
+1170;Southern Atlantic Ocean;x
+1171;Southern Atlantic Ocean;x
+1172;Southern Atlantic Ocean;x
+1173;Rio de La Plata;x
+1174;Southern Atlantic Ocean;x
+1175;Southern Atlantic Ocean;x
+1176;Southern Atlantic Ocean;x
+1177;Southern Atlantic Ocean;x
+1178;St. Helena Island;x
+1179;South Pacific Ocean;x
+1180;Southern Atlantic Ocean;x
+1181;Rio Muni;x
+1182;Gulf of Congo;x
+1183;Coast of Angola;x
+1184;Mozambica Channel;x
+1185;Rufiji Delta;x
+1186;Zanzibar Strait;x
+1187;Gulf of Zambeze;x
+1188;The Comores;x
+1189;Central Indian Ocean;x
+1190;Central Indian Ocean;x
+1191;The Seychelles;x
+1192;Central Indian Ocean;x
+1193;Central Indian Ocean;x
+1194;Central Indian Ocean;x
+1195;Central Indian Ocean;x
+1196;Diego Garcia Island;x
+1197;Central Indian Ocean;x
+1198;Central Indian Ocean;x
+1199;Central Indian Ocean;x
+1200;Central Indian Ocean;x
+1201;Central Indian Ocean;x
+1202;Central Indian Ocean;x
+1203;Central Indian Ocean;x
+1204;Central Indian Ocean;x
+1205;Straits of Sunda;x
+1206;Coast of Surabaja;x
+1207;Coast of Sarawak;x
+1208;Java Sea;x
+1209;Timor Sea;x
+1210;Strait of Makassar;x
+1211;Sea of Celebes;x
+1212;North West Cape;x
+1213;The Moluccas;x
+1214;Sea of Java;x
+1215;Sea of Java;x
+1216;Timor Sea;x
+1217;Tanimbar Islands;x
+1218;Halmahera Sea;x
+1219;Straits of Torres;x
+1220;New Guinea Coast;x
+1221;Sea of Banda;x
+1222;Sea of Ternate;x
+1223;Coast of New Zealand;x
+1224;Biak Bay;x
+1225;Vitiaz Strait;x
+1226;Melanesian Sea;x
+1227;Melanesia;x
+1228;Trobriand Islands;x
+1229;Louisiade Archipelago;x
+1230;Nauru Island;x
+1231;The Solomons;x
+1232;Gilbert Sea;x
+1233;South Pacific Ocean;x
+1234;South Pacific Ocean;x
+1235;South Pacific Ocean;x
+1236;South Pacific Ocean;x
+1237;South Pacific Ocean;x
+1238;South Pacific Ocean;x
+1239;Magellan Strait;x
+1240;Cape Horn;x
+1241;Patagonian Sea;x
+1242;Southern Atlantic Ocean;x
+1243;Falkland Islands;x
+1244;New Georgia Island;x
+1245;South Atlantic Ocean;x
+1246;Southern Atlantic Ocean;x
+1247;Tristan da Cunha Island;x
+1248;Southern Atlantic Ocean;x
+1249;Southern Atlantic Ocean;x
+1250;Walvis Bay;x
+1251;Coast of Namibia;x
+1252;Cape of Good Hope;x
+1253;Coast of Natal;x
+1254;Southern Indian Ocean;x
+1255;Southern Indian Ocean;x
+1256;Southern Indian Ocean;x
+1257;Southern Indian Ocean;x
+1258;Southern Indian Ocean;x
+1259;Southern Indian Ocean;x
+1260;Central Indian Ocean;x
+1261;Central Indian Ocean;x
+1262;Central Indian Ocean;x
+1263;Australian Sea;x
+1264;Australian Sea;x
+1265;Western Australian Coast;x
+1266;Shark Bay;x
+1267;Coast of New Holland;x
+1268;Cape Leeuwin;x
+1269;Recherche Archipelago;x
+1270;Great Australian Bight;x
+1271;Kangaroo Island;x
+1272;Eastern Australia;x
+1273;Sandy Cape;x
+1274;Capricorn Channel;x
+1275;Coral Sea;x
+1276;South Coral Sea;x
+1277;South Coral Sea;x
+1278;New Caledonian Sea;x
+1279;South Coral Sea;x
+1280;Cape Farewell;x
+1281;South Coral Sea;x
+1282;South Pacific Ocean;x
+1283;South Pacific Ocean;x
+1284;South Pacific Ocean;x
+1285;South Pacific Ocean;x
+1286;South Pacific Ocean;x
+1287;South Pacific Ocean;x
+1288;South Pacific Ocean;x
+1289;Southern Atlantic Ocean;x
+1290;Southern Atlantic Ocean;x
+1291;Southern Atlantic Ocean;x
+1292;Southern Atlantic Ocean;x
+1293;Southern Atlantic Ocean;x
+1294;Cape of Storms;x
+1295;South Indian Ocean;x
+1296;Southern Indian Ocean;x
+1297;Southern Indian Ocean;x
+1298;Southern Indian Ocean;x
+1299;The Roaring Forties;x
+1300;Southern Indian Ocean;x
+1301;Southern Indian Ocean;x
+1302;Southern Indian Ocean;x
+1303;Southern Indian Ocean;x
+1304;Southern Indian Ocean;x
+1305;Southern Indian Ocean;x
+1306;Southern Indian Ocean;x
+1307;Southern Indian Ocean;x
+1308;Southern Indian Ocean;x
+1309;Southern Indian Ocean;x
+1310;Southern Indian Ocean;x
+1311;Southern Indian Ocean;x
+1312;Bass Strait;x
+1313;Cape Howe;x
+1314;Tasman Sea;x
+1315;Tasman Sea;x
+1316;Tasman Sea;x
+1317;Tasman Sea;x
+1318;Cook Strait;x
+1319;South Pacific Ocean;x
+1320;South Pacific Ocean;x
+1321;Ocean;x
+1322;Ocean;x
+1323;The Mascareignes;x
+1324;Coast of Tamatave;x
+1325;Diego Suarez Bay;x
+1326;Northern Caspian Sea;x
+1327;Southern Caspian Sea;x
+1328;Coast of Ciskei;x
+1329;Table Bay;x
+1330;Southern Atlantic Ocean;x
+1331;Saint George's Channel;x
+1332;Central Pacific Ocean;x
+1333;South Pacific Ocean;x
+1334;Southern Atlantic Ocean;x
+1335;Bahia Blanca;x
+1336;Easter Island;x
+1337;Milne Bay;x
+1338;Great Barrier Reef;x
+1339;Papuan Coast;x
+1340;Kolepom Bay;x
+1341;Arafura Sea;x
+1342;Gulf of Carpentaria;x
+1343;King Sound;x
+1344;South Timor Sea;x
+1345;Timor Sea;x
+1346;Sea of Timor;x
+1347;Straits of Lombok;x
+1348;Ocean;x
+1349;Sea of Palawan;x
+1350;Coast of Brunei;x
+1351;Cam Rah Bay;x
+1352;Manilla Bay;x
+1353;Karimata Strait;x
+1354;Coast of Java;x
+1355;Christmas Island;x
+1356;Mekong Delta;x
+1357;Nicobar Islands;x
+1358;Coast of Ajeh;x
+1359;Western Oman Sea;x
+1360;Coast of Transkei;x
+1361;Lake Ladoga;x
+1362;The Skagerack;x
+1363;Persian Gulf;x
+1364;Atacama Coast;x
+1365;Ivory Coast;x
+1366;Southern Atlantic Ocean;x
+1367;Southern Atlantic Ocean;x
+1368;Central Atlantic Ocean;x
+1369;Lake Ontario;x
+1370;Lake Erie;x
+1371;Lakes Michigan & Huron;x
+1372;Lake Superior;x
+1373;Tampa Bay;x
+1374;South Chilean Coast;x
+1375;Greater Antillas;x
+1376;Southern Atlantic Ocean;x
+1377;Southern Atlantic Ocean;x
+1378;Lesser Antillas;x
+1379;Columbia River;x
+1380;Sacramento River;x
+1381;Colorado River;x
+1382;Rio Grande River;x
+1383;Matagorda River;x
+1384;Murray River;x
+1385;Savannah River;x
+1386;Charles River;x
+1387;Santee River;x
+1388;James River;x
+1389;Ganges River;x
+1390;Volga River;x
+1391;Danube River;x
+1392;Connecticut River;x
+1393;Kenebec River;x
+1394;Narva River;x
+1395;Ste. Croix River;x
+1396;St. John River;x
+1397;Lake Constance;x
+1398;Athabasca River;x
+1399;Orinoco River;x
+1400;Maroni River;x
+1401;Rhine River;x
+1402;Parana River;x
+1403;Orange River;x
+1404;Great Fish River;x
+1405;Limpopo River;x
+1406;Zambeze River;x
+1407;Congo River;x
+1408;Rufiji River;x
+1409;Ougawe River;x
+1410;Niger River;x
+1411;Nile River;x
+1412;Senegal River;x
+1413;Tajo River;x
+1414;Ebro River;x
+1415;Garonne River;x
+1416;Rhône River;x
+1417;Loire River;x
+1418;Seine River;x
+1419;Pô River;x
+1420;Maas River;x
+1421;Panaima River;x
+1422;Thames River;x
+1423;Weser River;x
+1424;Elbe River;x
+1425;Oder River;x
+1426;Vistula River;x
+1427;Amazon River;x
+1428;Dniester River;x
+1429;Dvina River;x
+1430;Dniepr River;x
+1431;Sakarya River;x
+1432;Kizil River;x
+1433;Velikaya River;x
+1434;Saguenay River;x
+1435;Donets River;x
+1436;Susquehanna River;x
+1437;Jordan River;x
+1438;Ural River;x
+1439;Irtych River;x
+1440;Ob River;x
+1441;Ienissei River;x
+1442;Lake Baikal & Selenga River;x
+1443;Indus River;x
+1444;Hudson River;x
+1445;Amur River;x
+1446;Yalu River;x
+1447;Houang Ho River;x
+1448;Yang Tse River;x
+1449;Pearl River;x
+1450;Mississippi & Ohio Rivers;x
+1451;Mahakan River;x
+1452;Kahajan River;x
+1453;Lake Tiberiade;x
+1454;Dead Sea;x
+1455;Lake Peipus;x
+1456;Mekong River;x
+1457;Fraser River;x
+1458;Mälaren;x
+1459;Hjälmaren;x
+1460;Lake Vänern;x
+1461;Lake Vättern;x
+1462;Lake Geneva;x
+1463;Niagara Falls;x
+1464;Great Rapid River;x
+1465;Illinois River;x
+1466;Iceland;x
+1467;Nagorje;x
+1468;Khretset;x
+1469;Gästrikland;x
+1470;Karelia;x
+1471;Alabama River;x
+1472;St.Lawrence River;x
+1473;Oregon;x
+1474;Sierra Nevada;x
+1475;Tonopah;x
+1476;Inyo;x
+1477;Utah;x
+1478;Moab;x
+1479;Colorado;x
+1480;Llano Estacado;x
+1481;Oklahoma;x
+1482;Montaña;x
+1483;Atalaya;x
+1484;Manu;x
+1485;Pampas del Norte;x
+1486;Pampas del Sur;x
+1487;Awdaghost;x
+1488;Walata;x
+1489;Jenné;x
+1490;Bambuk;x
+1491;Segu;x
+1492;Niani;x
+1493;Mossi;x
+1494;Buré;x
+1495;Timbuktu;x
+1496;Gao;x
+1497;Say;x
+1498;Begho;x
+1499;Zaria;x
+1500;Oye;x
+1501;Kano;x
+1502;Nupa;x
+1503;Teke;x
+1504;Ngoyo;x
+1505;Ndongo;x
+1506;Congo;x
+1507;Chibuene;x
+1508;Sofala;x
+1509;Zimbabwe;x
+1510;Rozwi;x
+1511;Nembire;x
+1512;Morogoro;x
+1513;Arusha;x
+1514;Galana;x
+1515;Tana;x
+1516;Welo;x
+1517;Shewa;x
+1518;Arsi;x
+1519;Harerge;x
+1520;Chandigarh;x
+1521;Panjab;x
+1522;Bikaner;x
+1523;Thar;x
+1524;Quetta;x
+1525;Qandahar;x
+1526;Zahedan;x
+1527;Kabul;x
+1528;Kushka;x
+1529;Birjand;x
+1530;Khorasan;x
+1531;Herat;x
+1532;Bukhara;x
+1533;Khiva;x
+1534;Kyzylkum;x
+1535;Karsak;x
+1536;Nura;x
+1537;Vestbygden;x
+1538;Eiriksfjord;x
+1539;Nepal;x
+1540;Gangdise;x
+1541;Kunlun;x
+1542;Dangla;x
+1543;Lhasa;x
+1544;Sichuan;x
+1545;Kachin;x
+1546;Assam;x
+1547;Mandalay;x
+1548;Shan;x
+1549;Bago;x
+1550;Lampang;x
+1551;Sarakham;x
+1552;Mekong;x
+1553;Yunnan;x
+1554;Lao Cai;x
+1555;Wenshan;x
+1556;Guizhou;x
+1557;Sichuan Pendi;x
+1558;Lanzhou;x
+1559;Xining;x
+1560;Ningxia;x
+1561;Hohhot;x
+1562;Shanxi;x
+1563;Shaanxi;x
+1564;Henan;x
+1565;Hubei;x
+1566;Hunan;x
+1567;Nanchang;x
+1568;Bermuda;x
+1569;Bahamas;x
+1570;Sadrinsk;x
+1571;Jalutorovsk;x
+1572;Nefedova;x
+1573;Tobolsk;x
+1574;Demjanskoje;x
+1575;Sergino;x
+1576;Manskijisk;x
+1577;Vakhovska;x
+1578;Surgut;x
+1579;Pimsk;x
+1580;Igrim;x
+1581;Berezov;x
+1582;Kondinsk;x
+1583;Obdorsk;x
+1584;Saleharo;x
+1585;Obskaja Guba;x
+1586;Kamcatka;x
+1587;Sredny Hrebet;x
+1588;Gonder;x
+1589;Kefa;x
+1590;Bale;x
+1591;Surkhandarya;x
+1592;Samarkand;x
+1593;Aral Sea;x
+1594;Uzbek;x
+1595;Anti Atlas;x
+1596;Mdennah;x
+1597;Azaouad;x
+1598;Tadjikistan;x
+1599;Kirgisistan;x
+1600;Tian Shan;x
+1601;Dsungaria;x
+1602;Bogda Shan;x
+1603;Chagatai;x
+1604;Urumqi;x
+1605;Qaidam Pendi;x
+1606;Xinjiang;x
+1607;Qinghai;x
+1608;Qilian Pendi;x
+1609;Kastamonu;x
+1610;Antalya;x
+1611;Taurus;x
+1612;Schwyz;x
+1613;Coast of Rhodes;x
+-1;;x

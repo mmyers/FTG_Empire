@@ -1,0 +1,3436 @@
+# Numbering scheme: First a fixed number 717 specifying a range. Then a four
+# digit number for the province. Finally a two digit number for the different
+# events for that province.
+#
+# Helper events to change provinces to protestant during the Reformation.
+#
+# Scandinavia, Greenland, and Northern Russia
+#
+# For the purposes of this file divided into the following regions:
+# Denmark (Jylland, Sjælland, Skåne, Gotland)
+# Norway (Bergenshus, Østlandet, Jämtland, Trøndelag, Narvik, Finnmark)
+# S Sweden (Småland, Västergötland, Svealand, Finland, Nyland)
+# N Sweden (Bergslagen, Gästrikland, Lappland, Västerbotten, Österbotten,
+#           Tavastland, Savolaks)
+# NW Russia (Kola, Karelia, Kexholm, Ingermanland)
+# N Russia (Olonets, Arkhangelsk)
+# Iceland
+# Greenland (Vestbygden, Eiriksfjord)
+#
+#               Period      Conversion Probability
+#                           Small   Normal  Large
+# Denmark       1532-1541    85%     90%     95%
+# Norway        1536-1563    15%     28%     39%
+# Norway        1536-1563    72%*    85%*    90%*
+# S Sweden      1525-1538    85%     90%     95%
+# N Sweden      1525-1552    85%     90%     95%
+# NW Russia     1530-1557    15%     28%     39%
+# N Russia      1535-1562     5%     15%     28%
+# Iceland       1540-1567    15%     28%     39%
+# Greenland     1550-1577     5%     15%     28%
+#
+# * Only if the province is owned by Denmark or Sweden. The probability is
+#   independent of that of the line above.
+
+# Skåne
+event = {
+	id = 717025101
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 251 data = catholic }
+			provincereligion = { province = 251 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025101"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717025100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Skåne
+event = {
+	id = 717025102
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 251 data = catholic }
+			provincereligion = { province = 251 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025102"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717025100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Skåne
+event = {
+	id = 717025103
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 251 data = catholic }
+			provincereligion = { province = 251 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025103"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717025100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Småland
+event = {
+	id = 717025201
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 252 data = catholic }
+			provincereligion = { province = 252 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025201"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717025200 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Småland
+event = {
+	id = 717025202
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 252 data = catholic }
+			provincereligion = { province = 252 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025202"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717025200 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Småland
+event = {
+	id = 717025203
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 252 data = catholic }
+			provincereligion = { province = 252 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025203"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717025200 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Västergötland
+event = {
+	id = 717025301
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 253 data = catholic }
+			provincereligion = { province = 253 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025301"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717025300 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Västergötland
+event = {
+	id = 717025302
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 253 data = catholic }
+			provincereligion = { province = 253 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025302"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717025300 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Västergötland
+event = {
+	id = 717025303
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 253 data = catholic }
+			provincereligion = { province = 253 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025303"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717025300 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Svealand
+event = {
+	id = 717025401
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 254 data = catholic }
+			provincereligion = { province = 254 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025401"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717025400 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Svealand
+event = {
+	id = 717025402
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 254 data = catholic }
+			provincereligion = { province = 254 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025402"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717025400 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Svealand
+event = {
+	id = 717025403
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 254 data = catholic }
+			provincereligion = { province = 254 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025403"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717025400 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Østlandet
+event = {
+	id = 717025501
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 255 data = catholic }
+			provincereligion = { province = 255 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025501"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717025500 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Østlandet
+event = {
+	id = 717025502
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 255 data = catholic }
+			provincereligion = { province = 255 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025502"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717025500 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Østlandet
+event = {
+	id = 717025503
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 255 data = catholic }
+			provincereligion = { province = 255 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025503"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717025500 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Østlandet
+event = {
+	id = 717025505
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 255 data = catholic }
+			provincereligion = { province = 255 data = reformed }
+		}
+		OR = {
+			owned = { province = 255 data = DAN }
+			owned = { province = 255 data = SWE }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025505"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { type = trigger which = 717025504 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { }
+	}
+}
+
+# Østlandet
+event = {
+	id = 717025506
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 255 data = catholic }
+			provincereligion = { province = 255 data = reformed }
+		}
+		OR = {
+			owned = { province = 255 data = DAN }
+			owned = { province = 255 data = SWE }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025506"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717025504 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Østlandet
+event = {
+	id = 717025507
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 255 data = catholic }
+			provincereligion = { province = 255 data = reformed }
+		}
+		OR = {
+			owned = { province = 255 data = DAN }
+			owned = { province = 255 data = SWE }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025507"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717025504 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Bergenshus
+event = {
+	id = 717025601
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 256 data = catholic }
+			provincereligion = { province = 256 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025601"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717025600 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Bergenshus
+event = {
+	id = 717025602
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 256 data = catholic }
+			provincereligion = { province = 256 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025602"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717025600 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Bergenshus
+event = {
+	id = 717025603
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 256 data = catholic }
+			provincereligion = { province = 256 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025603"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717025600 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Bergenshus
+event = {
+	id = 717025605
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 256 data = catholic }
+			provincereligion = { province = 256 data = reformed }
+		}
+		OR = {
+			owned = { province = 256 data = DAN }
+			owned = { province = 256 data = SWE }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025605"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { type = trigger which = 717025604 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { }
+	}
+}
+
+# Bergenshus
+event = {
+	id = 717025606
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 256 data = catholic }
+			provincereligion = { province = 256 data = reformed }
+		}
+		OR = {
+			owned = { province = 256 data = DAN }
+			owned = { province = 256 data = SWE }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025606"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717025604 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Bergenshus
+event = {
+	id = 717025607
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 256 data = catholic }
+			provincereligion = { province = 256 data = reformed }
+		}
+		OR = {
+			owned = { province = 256 data = DAN }
+			owned = { province = 256 data = SWE }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025607"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717025604 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Bergslagen
+event = {
+	id = 717025701
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 257 data = catholic }
+			provincereligion = { province = 257 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025701"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717025700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Bergslagen
+event = {
+	id = 717025702
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 257 data = catholic }
+			provincereligion = { province = 257 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025702"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717025700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Bergslagen
+event = {
+	id = 717025703
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 257 data = catholic }
+			provincereligion = { province = 257 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025703"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717025700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Trøndelag
+event = {
+	id = 717025801
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 258 data = catholic }
+			provincereligion = { province = 258 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025801"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717025800 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Trøndelag
+event = {
+	id = 717025802
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 258 data = catholic }
+			provincereligion = { province = 258 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025802"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717025800 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Trøndelag
+event = {
+	id = 717025803
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 258 data = catholic }
+			provincereligion = { province = 258 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025803"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717025800 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Trøndelag
+event = {
+	id = 717025805
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 258 data = catholic }
+			provincereligion = { province = 258 data = reformed }
+		}
+		OR = {
+			owned = { province = 258 data = DAN }
+			owned = { province = 258 data = SWE }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025805"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { type = trigger which = 717025804 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { }
+	}
+}
+
+# Trøndelag
+event = {
+	id = 717025806
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 258 data = catholic }
+			provincereligion = { province = 258 data = reformed }
+		}
+		OR = {
+			owned = { province = 258 data = DAN }
+			owned = { province = 258 data = SWE }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025806"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717025804 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Trøndelag
+event = {
+	id = 717025807
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 258 data = catholic }
+			provincereligion = { province = 258 data = reformed }
+		}
+		OR = {
+			owned = { province = 258 data = DAN }
+			owned = { province = 258 data = SWE }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025807"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717025804 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Narvik
+event = {
+	id = 717025901
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 259 data = catholic }
+			provincereligion = { province = 259 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025901"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717025900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Narvik
+event = {
+	id = 717025902
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 259 data = catholic }
+			provincereligion = { province = 259 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025902"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717025900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Narvik
+event = {
+	id = 717025903
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 259 data = catholic }
+			provincereligion = { province = 259 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025903"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717025900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Narvik
+event = {
+	id = 717025905
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 259 data = catholic }
+			provincereligion = { province = 259 data = reformed }
+		}
+		OR = {
+			owned = { province = 259 data = DAN }
+			owned = { province = 259 data = SWE }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025905"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { type = trigger which = 717025904 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { }
+	}
+}
+
+# Narvik
+event = {
+	id = 717025906
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 259 data = catholic }
+			provincereligion = { province = 259 data = reformed }
+		}
+		OR = {
+			owned = { province = 259 data = DAN }
+			owned = { province = 259 data = SWE }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025906"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717025904 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Narvik
+event = {
+	id = 717025907
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 259 data = catholic }
+			provincereligion = { province = 259 data = reformed }
+		}
+		OR = {
+			owned = { province = 259 data = DAN }
+			owned = { province = 259 data = SWE }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717025907"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717025904 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Lappland
+event = {
+	id = 717026001
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 260 data = catholic }
+			provincereligion = { province = 260 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026001"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717026000 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Lappland
+event = {
+	id = 717026002
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 260 data = catholic }
+			provincereligion = { province = 260 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026002"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717026000 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Lappland
+event = {
+	id = 717026003
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 260 data = catholic }
+			provincereligion = { province = 260 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026003"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717026000 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Finnmark
+event = {
+	id = 717026101
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 261 data = catholic }
+			provincereligion = { province = 261 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026101"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717026100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Finnmark
+event = {
+	id = 717026102
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 261 data = catholic }
+			provincereligion = { province = 261 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026102"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717026100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Finnmark
+event = {
+	id = 717026103
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 261 data = catholic }
+			provincereligion = { province = 261 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026103"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717026100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Finnmark
+event = {
+	id = 717026105
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 261 data = catholic }
+			provincereligion = { province = 261 data = reformed }
+		}
+		OR = {
+			owned = { province = 261 data = DAN }
+			owned = { province = 261 data = SWE }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026105"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { type = trigger which = 717026104 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { }
+	}
+}
+
+# Finnmark
+event = {
+	id = 717026106
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 261 data = catholic }
+			provincereligion = { province = 261 data = reformed }
+		}
+		OR = {
+			owned = { province = 261 data = DAN }
+			owned = { province = 261 data = SWE }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026106"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717026104 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Finnmark
+event = {
+	id = 717026107
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 261 data = catholic }
+			provincereligion = { province = 261 data = reformed }
+		}
+		OR = {
+			owned = { province = 261 data = DAN }
+			owned = { province = 261 data = SWE }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026107"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717026104 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Kola
+event = {
+	id = 717026201
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 262 data = catholic }
+			provincereligion = { province = 262 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026201"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717026200 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Kola
+event = {
+	id = 717026202
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 262 data = catholic }
+			provincereligion = { province = 262 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026202"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717026200 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Kola
+event = {
+	id = 717026203
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 262 data = catholic }
+			provincereligion = { province = 262 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026203"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717026200 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Österbotten
+event = {
+	id = 717026301
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 263 data = catholic }
+			provincereligion = { province = 263 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026301"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717026300 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Österbotten
+event = {
+	id = 717026302
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 263 data = catholic }
+			provincereligion = { province = 263 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026302"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717026300 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Österbotten
+event = {
+	id = 717026303
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 263 data = catholic }
+			provincereligion = { province = 263 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026303"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717026300 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Tavastland
+event = {
+	id = 717026401
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 264 data = catholic }
+			provincereligion = { province = 264 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026401"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717026400 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Tavastland
+event = {
+	id = 717026402
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 264 data = catholic }
+			provincereligion = { province = 264 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026402"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717026400 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Tavastland
+event = {
+	id = 717026403
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 264 data = catholic }
+			provincereligion = { province = 264 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026403"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717026400 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Nyland
+event = {
+	id = 717026501
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 265 data = catholic }
+			provincereligion = { province = 265 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026501"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717026500 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Nyland
+event = {
+	id = 717026502
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 265 data = catholic }
+			provincereligion = { province = 265 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026502"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717026500 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Nyland
+event = {
+	id = 717026503
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 265 data = catholic }
+			provincereligion = { province = 265 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026503"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717026500 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Kexholm
+event = {
+	id = 717026601
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 266 data = catholic }
+			provincereligion = { province = 266 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026601"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717026600 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Kexholm
+event = {
+	id = 717026602
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 266 data = catholic }
+			provincereligion = { province = 266 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026602"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717026600 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Kexholm
+event = {
+	id = 717026603
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 266 data = catholic }
+			provincereligion = { province = 266 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026603"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717026600 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Olonets
+event = {
+	id = 717026701
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 267 data = catholic }
+			provincereligion = { province = 267 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026701"
+	date = { year = 1535 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1562 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { type = trigger which = 717026700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { }
+	}
+}
+
+# Olonets
+event = {
+	id = 717026702
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 267 data = catholic }
+			provincereligion = { province = 267 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026702"
+	date = { year = 1535 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1562 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717026700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Olonets
+event = {
+	id = 717026703
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 267 data = catholic }
+			provincereligion = { province = 267 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026703"
+	date = { year = 1535 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1562 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717026700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Arkhangelsk
+event = {
+	id = 717026901
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 269 data = catholic }
+			provincereligion = { province = 269 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026901"
+	date = { year = 1535 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1562 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { type = trigger which = 717026900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { }
+	}
+}
+
+# Arkhangelsk
+event = {
+	id = 717026902
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 269 data = catholic }
+			provincereligion = { province = 269 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026902"
+	date = { year = 1535 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1562 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717026900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Arkhangelsk
+event = {
+	id = 717026903
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 269 data = catholic }
+			provincereligion = { province = 269 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717026903"
+	date = { year = 1535 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1562 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717026900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Savolaks
+event = {
+	id = 717027301
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 273 data = catholic }
+			provincereligion = { province = 273 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717027301"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717027300 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Savolaks
+event = {
+	id = 717027302
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 273 data = catholic }
+			provincereligion = { province = 273 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717027302"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717027300 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Savolaks
+event = {
+	id = 717027303
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 273 data = catholic }
+			provincereligion = { province = 273 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717027303"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717027300 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Ingermanland
+event = {
+	id = 717027501
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 275 data = catholic }
+			provincereligion = { province = 275 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717027501"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717027500 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Ingermanland
+event = {
+	id = 717027502
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 275 data = catholic }
+			provincereligion = { province = 275 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717027502"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717027500 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Ingermanland
+event = {
+	id = 717027503
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 275 data = catholic }
+			provincereligion = { province = 275 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717027503"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717027500 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Sjælland
+event = {
+	id = 717030701
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 307 data = catholic }
+			provincereligion = { province = 307 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717030701"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717030700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Sjælland
+event = {
+	id = 717030702
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 307 data = catholic }
+			provincereligion = { province = 307 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717030702"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717030700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Sjælland
+event = {
+	id = 717030703
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 307 data = catholic }
+			provincereligion = { province = 307 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717030703"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717030700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Gotland
+event = {
+	id = 717030801
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 308 data = catholic }
+			provincereligion = { province = 308 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717030801"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717030800 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Gotland
+event = {
+	id = 717030802
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 308 data = catholic }
+			provincereligion = { province = 308 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717030802"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717030800 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Gotland
+event = {
+	id = 717030803
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 308 data = catholic }
+			provincereligion = { province = 308 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717030803"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717030800 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Jylland
+event = {
+	id = 717030901
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 309 data = catholic }
+			provincereligion = { province = 309 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717030901"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717030900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Jylland
+event = {
+	id = 717030902
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 309 data = catholic }
+			provincereligion = { province = 309 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717030902"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717030900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Jylland
+event = {
+	id = 717030903
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 309 data = catholic }
+			provincereligion = { province = 309 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717030903"
+	date = { year = 1532 month = january day = 1 }
+	offset = 3593
+	deathdate = { year = 1541 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717030900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Västerbotten
+event = {
+	id = 717034101
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 341 data = catholic }
+			provincereligion = { province = 341 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717034101"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717034100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Västerbotten
+event = {
+	id = 717034102
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 341 data = catholic }
+			provincereligion = { province = 341 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717034102"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717034100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Västerbotten
+event = {
+	id = 717034103
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 341 data = catholic }
+			provincereligion = { province = 341 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717034103"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717034100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Finland
+event = {
+	id = 717034201
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 342 data = catholic }
+			provincereligion = { province = 342 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717034201"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717034200 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Finland
+event = {
+	id = 717034202
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 342 data = catholic }
+			provincereligion = { province = 342 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717034202"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717034200 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Finland
+event = {
+	id = 717034203
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 342 data = catholic }
+			provincereligion = { province = 342 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717034203"
+	date = { year = 1525 month = january day = 1 }
+	offset = 5033
+	deathdate = { year = 1538 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717034200 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Jämtland
+event = {
+	id = 717038101
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 381 data = catholic }
+			provincereligion = { province = 381 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717038101"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717038100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Jämtland
+event = {
+	id = 717038102
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 381 data = catholic }
+			provincereligion = { province = 381 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717038102"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717038100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Jämtland
+event = {
+	id = 717038103
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 381 data = catholic }
+			provincereligion = { province = 381 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717038103"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717038100 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Jämtland
+event = {
+	id = 717038105
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 381 data = catholic }
+			provincereligion = { province = 381 data = reformed }
+		}
+		OR = {
+			owned = { province = 381 data = DAN }
+			owned = { province = 381 data = SWE }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717038105"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { type = trigger which = 717038104 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { }
+	}
+}
+
+# Jämtland
+event = {
+	id = 717038106
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 381 data = catholic }
+			provincereligion = { province = 381 data = reformed }
+		}
+		OR = {
+			owned = { province = 381 data = DAN }
+			owned = { province = 381 data = SWE }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717038106"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717038104 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Jämtland
+event = {
+	id = 717038107
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 381 data = catholic }
+			provincereligion = { province = 381 data = reformed }
+		}
+		OR = {
+			owned = { province = 381 data = DAN }
+			owned = { province = 381 data = SWE }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717038107"
+	date = { year = 1536 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1563 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717038104 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Iceland
+event = {
+	id = 717146601
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1466 data = catholic }
+			provincereligion = { province = 1466 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717146601"
+	date = { year = 1540 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1567 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717146600 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Iceland
+event = {
+	id = 717146602
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1466 data = catholic }
+			provincereligion = { province = 1466 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717146602"
+	date = { year = 1540 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1567 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717146600 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Iceland
+event = {
+	id = 717146603
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1466 data = catholic }
+			provincereligion = { province = 1466 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717146603"
+	date = { year = 1540 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1567 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717146600 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Gästrikland
+event = {
+	id = 717146901
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1469 data = catholic }
+			provincereligion = { province = 1469 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717146901"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { type = trigger which = 717146900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { }
+	}
+}
+
+# Gästrikland
+event = {
+	id = 717146902
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1469 data = catholic }
+			provincereligion = { province = 1469 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717146902"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 90
+		command = { type = trigger which = 717146900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 10
+		command = { }
+	}
+}
+
+# Gästrikland
+event = {
+	id = 717146903
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1469 data = catholic }
+			provincereligion = { province = 1469 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717146903"
+	date = { year = 1525 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1552 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { type = trigger which = 717146900 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { }
+	}
+}
+
+# Karelia
+event = {
+	id = 717147001
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1470 data = catholic }
+			provincereligion = { province = 1470 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717147001"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717147000 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Karelia
+event = {
+	id = 717147002
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1470 data = catholic }
+			provincereligion = { province = 1470 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717147002"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717147000 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Karelia
+event = {
+	id = 717147003
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1470 data = catholic }
+			provincereligion = { province = 1470 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717147003"
+	date = { year = 1530 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1557 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 39
+		command = { type = trigger which = 717147000 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 61
+		command = { }
+	}
+}
+
+# Vestbygden
+event = {
+	id = 717153701
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1537 data = catholic }
+			provincereligion = { province = 1537 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717153701"
+	date = { year = 1550 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1577 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { type = trigger which = 717153700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { }
+	}
+}
+
+# Vestbygden
+event = {
+	id = 717153702
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1537 data = catholic }
+			provincereligion = { province = 1537 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717153702"
+	date = { year = 1550 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1577 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717153700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Vestbygden
+event = {
+	id = 717153703
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1537 data = catholic }
+			provincereligion = { province = 1537 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717153703"
+	date = { year = 1550 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1577 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717153700 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+
+# Eiriksfjord
+event = {
+	id = 717153801
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1538 data = catholic }
+			provincereligion = { province = 1538 data = reformed }
+		}
+		flag = SmallProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717153801"
+	date = { year = 1550 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1577 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 5
+		command = { type = trigger which = 717153800 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 95
+		command = { }
+	}
+}
+
+# Eiriksfjord
+event = {
+	id = 717153802
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1538 data = catholic }
+			provincereligion = { province = 1538 data = reformed }
+		}
+		flag = NormalProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717153802"
+	date = { year = 1550 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1577 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 15
+		command = { type = trigger which = 717153800 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 85
+		command = { }
+	}
+}
+
+# Eiriksfjord
+event = {
+	id = 717153803
+	trigger = {
+		event = 100 #Reformation
+		OR = {
+			provincereligion = { province = 1538 data = catholic }
+			provincereligion = { province = 1538 data = reformed }
+		}
+		flag = LargeProtestant
+	}
+	random = no
+	country = MUS
+	name = "AI_EVENT"
+	desc = "717153803"
+	date = { year = 1550 month = january day = 1 }
+	offset = 10073
+	deathdate = { year = 1577 month = december day = 30 }
+	action = {
+		name = "OK"
+		ai_chance = 28
+		command = { type = trigger which = 717153800 }
+	}
+	action = {
+		name = "OK"
+		ai_chance = 72
+		command = { }
+	}
+}
+

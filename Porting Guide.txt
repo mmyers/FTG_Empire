@@ -1,0 +1,68 @@
+Alun's Reformation Mod - Version 0.4 Beta
+
+Porting Guide
+
+Since this mod is of a rather limited scope (just affecting province
+religion, and even that for only a relatively short period of time),
+you may want to use it as part of some other mod rather than run it as
+a stand alone mod. For that reason I've put together here the things
+I could think of that you need to do and think of in order to incorporate
+it into another mod. I'm going to assume the other mod also uses moddir.
+
+Check if there's any id conflicts. This mod uses events in the range
+717000000 - 717xxxx99 (where xxxx is the highest province ID number used),
+and country tag MUS.
+
+The event id range was chosen to be unlikely to conflict with anything
+else, but should that actually have happened, remapping is easy. As of
+Version 0.4 you can change the mapping in all province level events simply
+by changing the argument to the EventIDPrefix tag in the .empire file and
+rebuilding with Alun's Empire. In addition to that you need to change the
+717 prefix in RNGC_Main.txt to the same new prefix.
+
+Checking that you don't overwite anything, copy all the events in the
+event folder to your event folder. The only Paradox event file I've
+changed is ReligiousEvents.txt (in Version 0.3 and earlier also
+randomevents.txt). If you too have changed it you will have to merge
+the changes.
+
+What I've done in ReligiousEvents.txt is to change the dates and offsets
+of the Reformation and Jean Calvin events. (I also changed the name of the
+Jean Calvin event, but this isn't critical.)
+
+If you have your own events.txt file then edit it so that the new event
+files get included, otherwise just copy mine. All my new stuff is at the
+end of the file if you just want to cut'n'paste.
+
+This mod uses the country tag MUS in order to provide random number
+generation (by AI event choices). If this tag is already used but you
+have some other tag free, you can change it in all province level events
+simply by changing the argument to the RNGCTag tag in the .empire file
+and rebuilding with Alun's Empire. In addition to that you also need to
+change the tag in RNGC_Main.txt and RNGC.inc.
+
+If you don't have any free tags, you could add the events to an existing
+country, but it would have to be one that is never played by a human,
+and it would have to be one that never gets annexed (at least not before
+the reformation is all over). This could potentially be a bit problematic.
+If you go this route you wont need the RNGC.inc file, otherwise make
+sure it's included by your scenario file(s).
+
+If you do use the RNGC.inc file, verify that the province used as the
+capital is not already occupied in your scenario. As of 0.4 beta this
+is unlikely with the vanilla map since it is a dummy province... If you
+use a modified map, change it to either the new dummy province or to one
+especially made for the purpose (hidden away from everyone else).
+
+Make sure to include StartReligions.inc into any scenario starting before
+the Reformation (unless you've changed province.csv to not have any
+protestant or reformed provinces anyway).
+
+Note that in StartReligions.inc I also changed Kexholm to orthodox and
+Vestbygden and Eiriksfjord to catholic, but this is more of a bugfix than
+a mod thing.
+
+Assuming you want them, cut'n'paste the size options to the header section
+of your main scenario file(s).
+
+That, hopefully, should be it.

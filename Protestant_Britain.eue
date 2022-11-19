@@ -1,0 +1,188 @@
+# Numbering scheme: First a fixed number 717 specifying a range. Then a four
+# digit number for the province. Finally a two digit number for the different
+# events for that province.
+
+# Main action events to change province religions during the Reformation.
+# These won't happen by themselves, they are intended to (perhaps) be
+# triggered by the helper events.
+
+event = {
+	id = 717023600
+	random = no
+	province = 236
+	name = "EVENTNAME717023600" #The Highlands converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 236 value = protestant } #The Highlands
+	}
+}
+
+event = {
+	id = 717023700
+	random = no
+	province = 237
+	name = "EVENTNAME717023700" #The Grampians converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 237 value = protestant } #The Grampians
+	}
+}
+
+event = {
+	id = 717023800
+	random = no
+	province = 238
+	name = "EVENTNAME717023800" #Lothian converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 238 value = protestant } #Lothian
+	}
+}
+
+event = {
+	id = 717023900
+	random = no
+	province = 239
+	name = "EVENTNAME717023900" #Strathclyde converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 239 value = protestant } #Strathclyde
+	}
+}
+
+event = {
+	id = 717024000
+	random = no
+	province = 240
+	name = "EVENTNAME717024000" #Northumberland converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 240 value = protestant } #Northumberland
+	}
+}
+
+event = {
+	id = 717024100
+	random = no
+	province = 241
+	name = "EVENTNAME717024100" #Yorkshire converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 241 value = protestant } #Yorkshire
+	}
+}
+
+event = {
+	id = 717024200
+	random = no
+	province = 242
+	name = "EVENTNAME717024200" #Lancashire converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 242 value = protestant } #Lancashire
+	}
+}
+
+event = {
+	id = 717024300
+	random = no
+	province = 243
+	name = "EVENTNAME717024300" #Wales converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 243 value = protestant } #Wales
+	}
+}
+
+event = {
+	id = 717024400
+	random = no
+	province = 244
+	name = "EVENTNAME717024400" #Midlands converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 244 value = protestant } #Midlands
+	}
+}
+
+event = {
+	id = 717024500
+	random = no
+	province = 245
+	name = "EVENTNAME717024500" #Lincoln converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 245 value = protestant } #Lincoln
+	}
+}
+
+event = {
+	id = 717024600
+	random = no
+	province = 246
+	name = "EVENTNAME717024600" #Bristol converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 246 value = protestant } #Bristol
+	}
+}
+
+event = {
+	id = 717024700
+	random = no
+	province = 247
+	name = "EVENTNAME717024700" #Anglia converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 247 value = protestant } #Anglia
+	}
+}
+
+event = {
+	id = 717024800
+	random = no
+	province = 248
+	name = "EVENTNAME717024800" #Kent converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 248 value = protestant } #Kent
+	}
+}
+
+event = {
+	id = 717024900
+	random = no
+	province = 249
+	name = "EVENTNAME717024900" #Wessex converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 249 value = protestant } #Wessex
+	}
+}
+
+event = {
+	id = 717025000
+	random = no
+	province = 250
+	name = "EVENTNAME717025000" #Cornwall converted to protestantism
+	desc = "EVENTHIST_REFMODPROT"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 250 value = protestant } #Cornwall
+	}
+}
+

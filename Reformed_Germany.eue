@@ -1,0 +1,164 @@
+# Numbering scheme: First a fixed number 717 specifying a range. Then a four
+# digit number for the province. Finally a two digit number for the different
+# events for that province.
+
+# Main action events to change province religions during the Reformation.
+# These won't happen by themselves, they are intended to (perhaps) be
+# triggered by the helper events.
+
+event = {
+	id = 717031010
+	random = no
+	province = 310
+	name = "EVENTNAME717031010" #Hannover converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 310 value = reformed } #Hannover
+	}
+}
+
+event = {
+	id = 717033210
+	random = no
+	province = 332
+	name = "EVENTNAME717033210" #Anhalt converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 332 value = reformed } #Anhalt
+	}
+}
+
+event = {
+	id = 717033310
+	random = no
+	province = 333
+	name = "EVENTNAME717033310" #Hessen converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 333 value = reformed } #Hessen
+	}
+}
+
+event = {
+	id = 717033410
+	random = no
+	province = 334
+	name = "EVENTNAME717033410" #Münster converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 334 value = reformed } #Münster
+	}
+}
+
+event = {
+	id = 717033510
+	random = no
+	province = 335
+	name = "EVENTNAME717033510" #Oldenburg converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 335 value = reformed } #Oldenburg
+	}
+}
+
+event = {
+	id = 717033610
+	random = no
+	province = 336
+	name = "EVENTNAME717033610" #Bremen converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 336 value = reformed } #Bremen
+	}
+}
+
+event = {
+	id = 717034310
+	random = no
+	province = 343
+	name = "EVENTNAME717034310" #Kleves converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 343 value = reformed } #Kleves
+	}
+}
+
+event = {
+	id = 717034410
+	random = no
+	province = 344
+	name = "EVENTNAME717034410" #Köln converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 344 value = reformed } #Köln
+	}
+}
+
+event = {
+	id = 717034510
+	random = no
+	province = 345
+	name = "EVENTNAME717034510" #Pfalz converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 345 value = reformed } #Pfalz
+	}
+}
+
+event = {
+	id = 717034610
+	random = no
+	province = 346
+	name = "EVENTNAME717034610" #Mainz converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 346 value = reformed } #Mainz
+	}
+}
+
+event = {
+	id = 717034710
+	random = no
+	province = 347
+	name = "EVENTNAME717034710" #Würzburg converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 347 value = reformed } #Würzburg
+	}
+}
+
+event = {
+	id = 717037310
+	random = no
+	province = 373
+	name = "EVENTNAME717037310" #Baden converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 373 value = reformed } #Baden
+	}
+}
+
+event = {
+	id = 717037410
+	random = no
+	province = 374
+	name = "EVENTNAME717037410" #Alsace converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 374 value = reformed } #Alsace
+	}
+}
+

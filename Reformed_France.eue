@@ -1,0 +1,224 @@
+# Numbering scheme: First a fixed number 717 specifying a range. Then a four
+# digit number for the province. Finally a two digit number for the different
+# events for that province.
+
+# Main action events to change province religions during the Reformation.
+# These won't happen by themselves, they are intended to (perhaps) be
+# triggered by the helper events.
+
+event = {
+	id = 717038410
+	random = no
+	province = 384
+	name = "EVENTNAME717038410" #Caux converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 384 value = reformed } #Caux
+	}
+}
+
+event = {
+	id = 717040410
+	random = no
+	province = 404
+	name = "EVENTNAME717040410" #Piemonte converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 404 value = reformed } #Piemonte
+	}
+}
+
+event = {
+	id = 717040510
+	random = no
+	province = 405
+	name = "EVENTNAME717040510" #Savoie converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 405 value = reformed } #Savoie
+	}
+}
+
+event = {
+	id = 717040710
+	random = no
+	province = 407
+	name = "EVENTNAME717040710" #Dauphiné converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 407 value = reformed } #Dauphiné
+	}
+}
+
+event = {
+	id = 717040810
+	random = no
+	province = 408
+	name = "EVENTNAME717040810" #Lyonnais converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 408 value = reformed } #Lyonnais
+	}
+}
+
+event = {
+	id = 717041010
+	random = no
+	province = 410
+	name = "EVENTNAME717041010" #Berri converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 410 value = reformed } #Berri
+	}
+}
+
+event = {
+	id = 717041110
+	random = no
+	province = 411
+	name = "EVENTNAME717041110" #Orléanais converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 411 value = reformed } #Orléanais
+	}
+}
+
+event = {
+	id = 717041210
+	random = no
+	province = 412
+	name = "EVENTNAME717041210" #Maine converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 412 value = reformed } #Maine
+	}
+}
+
+event = {
+	id = 717041310
+	random = no
+	province = 413
+	name = "EVENTNAME717041310" #Normandie converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 413 value = reformed } #Normandie
+	}
+}
+
+event = {
+	id = 717041710
+	random = no
+	province = 417
+	name = "EVENTNAME717041710" #Vendée converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 417 value = reformed } #Vendée
+	}
+}
+
+event = {
+	id = 717041810
+	random = no
+	province = 418
+	name = "EVENTNAME717041810" #Poitou converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 418 value = reformed } #Poitou
+	}
+}
+
+event = {
+	id = 717041910
+	random = no
+	province = 419
+	name = "EVENTNAME717041910" #Limousin converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 419 value = reformed } #Limousin
+	}
+}
+
+event = {
+	id = 717042010
+	random = no
+	province = 420
+	name = "EVENTNAME717042010" #Auvergne converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 420 value = reformed } #Auvergne
+	}
+}
+
+event = {
+	id = 717042110
+	random = no
+	province = 421
+	name = "EVENTNAME717042110" #Cévennes converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 421 value = reformed } #Cévennes
+	}
+}
+
+event = {
+	id = 717042210
+	random = no
+	province = 422
+	name = "EVENTNAME717042210" #Languedoc converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 422 value = reformed } #Languedoc
+	}
+}
+
+event = {
+	id = 717042310
+	random = no
+	province = 423
+	name = "EVENTNAME717042310" #Guyenne converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 423 value = reformed } #Guyenne
+	}
+}
+
+event = {
+	id = 717042410
+	random = no
+	province = 424
+	name = "EVENTNAME717042410" #Gascogne converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 424 value = reformed } #Gascogne
+	}
+}
+
+event = {
+	id = 717042510
+	random = no
+	province = 425
+	name = "EVENTNAME717042510" #Béarn converted to reformed
+	desc = "EVENTHIST_REFMODREF"
+	action = {
+		name = "OK"
+		command = { type = provincereligion which = 425 value = reformed } #Béarn
+	}
+}
+
