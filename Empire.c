@@ -24,7 +24,7 @@
 #include <string.h>
 #include <limits.h>
 
-#define LOW_CHANCE_THRESHOLD	72 // if chance is below this threshold, create events with "convert" as the second option, not the first
+#define LOW_CHANCE_THRESHOLD	50 // if chance is below this threshold, create events with "convert" as the second option, not the first
 
 #define MAX_TAGS                100
 #define MAX_STRINGS             100
