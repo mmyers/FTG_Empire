@@ -24,6 +24,8 @@
 #include <string.h>
 #include <limits.h>
 
+#define LOW_CHANCE_THRESHOLD	72 // if chance is below this threshold, create events with "convert" as the second option, not the first
+
 #define MAX_TAGS                100
 #define MAX_STRINGS             100
 #define MAX_TAG_LENGTH          50
@@ -424,6 +426,35 @@ event = {\n\
 	}\n\
 }\n\n";
 
+// When the user selects AI event choices as Historical, the AI always chooses the first option.
+// To be prepared for that case, provinces with a lower chance of conversion should have the Convert option second.
+char *GenLowChanceFormat = "\
+# %s\n\
+event = {\n\
+	id = %d\n\
+	trigger = {\n\
+%s\
+%s\
+	}\n\
+	random = no\n\
+	country = %s\n\
+	name = \"AI_EVENT\"\n\
+	desc = \"%d\"\n\
+	date = { %s }\n\
+	offset = %d\n\
+	deathdate = { %s }\n\
+	action = {\n\
+		name = \"OK\"\n\
+		ai_chance = %d\n\
+		command = { }\n\
+	}\n\
+	action = {\n\
+		name = \"OK\"\n\
+		ai_chance = %d\n\
+		command = { type = trigger which = %d }\n\
+	}\n\
+}\n\n";
+
 char *Gen100pFormat = "\
 # %s\n\
 event = {\n\
@@ -585,6 +616,10 @@ void OutputEvents(int ProvinceID, int Event, int Trigger, int StartDate, int End
 			fprintf(ofp, Gen100pFormat, ProvinceNames[ProvinceID], ID1,
 					StrExpTrigger, FlagStr, TagArray[RNGCTag], ID1, StrStartDate,
 					CalcDateSpan(StartDate, EndDate), StrEndDate, ModID);
+		else if (Target <= LOW_CHANCE_THRESHOLD)
+			fprintf(ofp, GenLowChanceFormat, ProvinceNames[ProvinceID], ID1,
+				StrExpTrigger, FlagStr, TagArray[RNGCTag], ID1, StrStartDate,
+				CalcDateSpan(StartDate, EndDate), StrEndDate, 100 - Target, Target, ModID);
 		else
 			fprintf(ofp, GenFormat, ProvinceNames[ProvinceID], ID1,
 					StrExpTrigger, FlagStr, TagArray[RNGCTag], ID1, StrStartDate,
